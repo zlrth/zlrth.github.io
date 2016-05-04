@@ -41,7 +41,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	/* max-width: 50em; */
+	max-width: 50em;
 	padding: $h2;
 }
 
@@ -61,7 +61,7 @@ HEADER SYTLES
 }
 
 .logo {
-	width: 80%;
+	max-width: 80%;
 	margin: 0 auto;
 	display: block;
 }
