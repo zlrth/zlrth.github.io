@@ -178,7 +178,7 @@ HEADER SYTLES
 
 .non-main-header {
     @include col-center;
-    
+    justify-content: center;
     width: 80%;
     text-align: center;
 
@@ -186,11 +186,20 @@ HEADER SYTLES
 	margin: 2rem 0 3rem 0;
     }
 
-    img.logo {
-	margin: 2rem 0 0;
+    a > img.logo {
+	margin: 2rem auto;
     }
 }
 
+.directory-nav {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+    span {
+	margin: 0 1rem;
+    }
+}
 
 /*********************
 NAVIGATION STYLES
