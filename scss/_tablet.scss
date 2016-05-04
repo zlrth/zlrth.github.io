@@ -96,16 +96,12 @@ CONTENT
     flex-flow: row;
 }
 
-.perk, .directory-listing {
+.perk {
     padding: 0 $h2 $h3;
 }
 
-.directory-listings {
-    flex-basis: 50%;
-}
-
-.first .directory-listing {
-    margin-right: 2rem;
+.directory-listing {
+    margin: 1rem;
 }
 
 
