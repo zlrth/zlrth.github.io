@@ -96,13 +96,18 @@ CONTENT
     flex-flow: row;
 }
 
-.perk {
+.perk, .directory-listing {
     padding: 0 $h2 $h3;
 }
 
 .directory-listings {
     flex-basis: 50%;
 }
+
+.first .directory-listing {
+    margin-right: 2rem;
+}
+
 
 /*********************
 FOOTER STYLES
