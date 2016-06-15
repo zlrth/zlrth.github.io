@@ -2171,6 +2171,10 @@ PAYPAL FORMS (TABLES)
 table {
   margin: 2rem 0; }
 
+select {
+  width: 100%;
+  overflow: hidden; }
+
 /* --- MOBILE/PHABLETS */
 @media only screen and (min-width: 30em) {
   /******************************************************************
