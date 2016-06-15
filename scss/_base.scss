@@ -361,7 +361,7 @@ UTILITIES
 
 
 /**********************
-PAYPAL FORMS (TABLES)
+PAYPAL FORMS (TABLE-BASED)
 **********************/
 
 table {
@@ -371,4 +371,8 @@ table {
 select {
     width: 100%;
     overflow: hidden;
+}
+
+.br {
+    padding-bottom: 2rem
 }
