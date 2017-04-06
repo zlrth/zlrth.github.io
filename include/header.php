@@ -12,6 +12,9 @@
         
         <link rel="stylesheet" href="css/style.css?v1.2">
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
     </head>
 
     <body>
