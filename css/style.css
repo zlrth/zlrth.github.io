@@ -1920,7 +1920,7 @@ GENERAL STYLES
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden; }
+}
 
 body {
   background-color: #f9f9f9;
@@ -1928,7 +1928,6 @@ body {
   font-size: 2rem;
   color: #222;
   line-height: 1.5;
-  overflow-x: hidden;
   margin: 0;
   padding: 0; }
 
@@ -2093,9 +2092,9 @@ CONTENT STYLES
 
 .bigrockcandymountain {
     margin: auto;
-    margin-left: 46rem;
-    width: 50%;
-    font-size: 3.0rem;
+    /*margin-left: 46rem; */
+    width: 100%;
+    font-size: 80.0rem;
     text-align: left;
 }
 
